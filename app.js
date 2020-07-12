@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 });
 
 mongoose
-  .connect(`mongodb://localhost:27017/mern-car-inpection-challenge`, {
+  .connect(`mongodb+srv://carsome:VGGEYhC7BAtM8ad@cluster0.ttpav.mongodb.net/MERN-CAR-INPECTION-CHALLENGE?retryWrites=true&w=majority`, {
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true,
