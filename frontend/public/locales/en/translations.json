@@ -11,5 +11,13 @@
     "heading": {
       "HEADER": "Main Navigation"
     }
+  },
+  "form": {
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "MOBILE": "Mobile No",
+    "CARBRAND": "Car Brand",
+    "DATE": "Date",
+    "TIME": "Time"
   }
 }

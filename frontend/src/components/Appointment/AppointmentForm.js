@@ -67,7 +67,8 @@ const AppointmentForm = (props) => {
           <form className="form-horizontal" onSubmit={handleSubmit}>
             <FormGroup row>
               <label className="col-xl-2 col-form-label">
-                Name <span className="text-danger">*</span>
+                <Trans i18nKey="form.NAME"></Trans>
+                <span className="text-danger"> *</span>
               </label>
               <div className="col-xl-10">
                 <Input
@@ -83,7 +84,9 @@ const AppointmentForm = (props) => {
               </div>
             </FormGroup>
             <FormGroup row>
-              <label className="col-xl-2 col-form-label">Email</label>
+              <label className="col-xl-2 col-form-label">
+                <Trans i18nKey="form.EMAIL"></Trans>
+              </label>
               <div className="col-xl-10">
                 <Input
                   id="em"
@@ -99,7 +102,7 @@ const AppointmentForm = (props) => {
             </FormGroup>
             <FormGroup row>
               <label className="col-xl-2 col-form-label">
-                Mobile No <span className="text-danger">*</span>
+                <Trans i18nKey="form.MOBILE"></Trans> <span className="text-danger"> *</span>
               </label>
               <div className="col-xl-10">
                 <Input
@@ -115,7 +118,9 @@ const AppointmentForm = (props) => {
               </div>
             </FormGroup>
             <FormGroup row>
-              <label className="col-xl-2 col-form-label">Car Brand</label>
+              <label className="col-xl-2 col-form-label">
+                <Trans i18nKey="form.CARBRAND"></Trans>
+              </label>
               <div className="col-xl-10">
                 <select
                   id="carbd"
@@ -134,7 +139,9 @@ const AppointmentForm = (props) => {
               </div>
             </FormGroup>
             <FormGroup row>
-              <label className="col-xl-2 col-form-label">Date</label>
+              <label className="col-xl-2 col-form-label">
+                <Trans i18nKey="form.DATE"></Trans>
+              </label>
               <div className="col-xl-10">
                 <Datetime
                   dateFormat="DD-MMM-YYYY"
@@ -148,7 +155,9 @@ const AppointmentForm = (props) => {
               </div>
             </FormGroup>
             <FormGroup row>
-              <label className="col-xl-2 col-form-label">Time</label>
+              <label className="col-xl-2 col-form-label">
+                <Trans i18nKey="form.TIME"></Trans>
+              </label>
               <div className="col-xl-10">
                 <select
                   id="tm"

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { withNamespaces, Trans } from 'react-i18next';
 import { Container, Card, CardBody } from 'reactstrap';
 import Datatable from '../Common/Datatable';
 
@@ -84,12 +85,24 @@ const AppointmentTable = (props) => {
                 <table id="table" className="table table-striped my-4 w-100">
                   <thead>
                     <tr>
-                      <th data-priority="1">Name</th>
-                      <th>Email</th>
-                      <th>Mobile</th>
-                      <th>Car Brand</th>
-                      <th>Date</th>
-                      <th>Time</th>
+                      <th data-priority="1">
+                        <Trans i18nKey="form.NAME"></Trans>
+                      </th>
+                      <th>
+                        <Trans i18nKey="form.EMAIL"></Trans>
+                      </th>
+                      <th>
+                        <Trans i18nKey="form.MOBILE"></Trans>
+                      </th>
+                      <th>
+                        <Trans i18nKey="form.CARBRAND"></Trans>
+                      </th>
+                      <th>
+                        <Trans i18nKey="form.DATE"></Trans>
+                      </th>
+                      <th>
+                        <Trans i18nKey="form.TIME"></Trans>
+                      </th>
                       <th></th>
                     </tr>
                   </thead>
@@ -106,4 +119,4 @@ const AppointmentTable = (props) => {
   );
 };
 
-export default AppointmentTable;
+export default withNamespaces('translations')(AppointmentTable);

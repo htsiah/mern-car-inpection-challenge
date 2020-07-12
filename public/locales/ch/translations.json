@@ -11,5 +11,13 @@
     "heading": {
       "HEADER": "主导航"
     }
+  },
+  "form": {
+    "NAME": "名字",
+    "EMAIL": "电子邮件",
+    "MOBILE": "手机号码",
+    "CARBRAND": "汽车品牌",
+    "DATE": "日期",
+    "TIME": "时间"
   }
 }
