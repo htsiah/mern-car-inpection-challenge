@@ -1,6 +1,8 @@
 import React from 'react';
 import moment from 'moment';
 
+import DelBtn from '../Common/DelBtn';
+
 const AppointmentTableRow = (props) => {
   return (
     <>
@@ -12,7 +14,9 @@ const AppointmentTableRow = (props) => {
           <td>{Appointment.carbd}</td>
           <td>{moment(Appointment.dat).format('DD-MMM-YYYY')}</td>
           <td>{Appointment.tm}</td>
-          <td>Cancel Appointment</td>
+          <td>
+            <DelBtn docid={Appointment.id} delurl={'/appointment/' + Appointment.id} onDeleteData={props.onDeleteData} />
+          </td>
         </tr>
       ))}
     </>

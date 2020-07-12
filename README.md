@@ -22,3 +22,11 @@ Build with:
 <li>bootstrap v4.5.0</li>
 <li>Many more, refer to package.json.</li>
 </ul>
+
+Things need to work:
+
+<ul>
+<li>Datatable features not working. Example sorting, export csv and etc.</li>
+<li>Not allowed to book an inspection appointment in the current hour.</li>
+<li>Max of inspection slots validation.</li>
+</ul>
