@@ -1,0 +1,15 @@
+{
+  "myappointment": {
+    "TITLE": "我的约定"
+  },
+  "makeappointment": {
+    "TITLE": "提前预约"
+  },
+  "sidebar": {
+    "MYAPPOINTMENT": "我的约定",
+    "MAKEAPPOINTMENT": "提前预约",
+    "heading": {
+      "HEADER": "主导航"
+    }
+  }
+}
