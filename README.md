@@ -3,7 +3,7 @@
 You can access the application at https://mern-car-inpection-challenge.herokuapp.com.
 
 Cloud Database:<br />
-The database is using cloud based mongoDb hosted at https://www.mongodb.com/cloud/atlas.
+The database is using cloud based mongodb hosted at https://www.mongodb.com/cloud/atlas.
 
 Cloud Application:<br />
 The application is hosted at https://www.heroku.com.
@@ -29,4 +29,11 @@ Things need to work:
 <li>Datatable features not working. Example sorting, export csv and etc.</li>
 <li>Not allowed to book an inspection appointment in the current hour.</li>
 <li>Max of inspection slots validation.</li>
+</ul>
+
+Other notes:
+
+<ul>
+<li>This application is hosted at US and apps will sleep automatically after 30 mins of inactivity. You might encounter slow network lantency due to the long distance and first time load the application.</li>
+<li>The application is tested in Chrome browser.</li>
 </ul>
