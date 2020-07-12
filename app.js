@@ -32,7 +32,7 @@ mongoose
   })
   .then(() => {
     console.log('Db (mern-car-inpection-challenge) connection established.');
-    app.listen(80);
+    app.listen(process.env.PORT || 80);
     console.log('Listening port 80.');
   })
   .catch((err) => {
